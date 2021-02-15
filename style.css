@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(143, 134, 123);
+
+}
+
+header{
+    font-size: 75%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+section{
+
+    background-color: bisque;
+    scroll-padding: 100px;
+    width: auto;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+    text-align: left;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+#d2{
+    padding: 25px;
+    font-size: small;
+    text-align: center;
+    font-style: italic;
+}
