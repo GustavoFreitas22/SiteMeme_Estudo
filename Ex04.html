@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 04 - Logica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="window.location.href = 'index.html'">Voltar para o menu principal</button>
+    <script>
+        window.alert("Receba a temperatura em graus Celsius. Calcule e mostre a sua temperatura convertida em fahrenheit")
+
+        let temp = Number(window.prompt("Digite a temperatura:"))
+
+        const calcTemp = function(){
+            //  F = (9*C+160) /5
+            let newTemp = ((temp*9)+160)/5
+
+            return newTemp
+        }
+
+        window.confirm(`O valor convertido para F: ${calcTemp(temp)}`)
+
+        document.write(`Conversão feita!`)
+    </script>
+</body>
+</html>

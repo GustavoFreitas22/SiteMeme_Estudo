@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 05 - Logica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="window.location.href = 'index.html'">Voltar para o menu principal</button>
+    <script>
+        window.alert("Receba os coeficientes A, B e C de uma equação do 2º grau (AX²+BX+C=0) e mostre as suas raizes.")
+            // X = B +/- Raiz(Delta)/ 2*A
+            // Delta = B² - 4 * A * C
+        let a = Number(window.prompt("Digite o valor de A:"))
+        let b = Number(window.prompt("Digite o valor de B:"))
+        let c = Number(window.prompt("Digite o valor de C:"))
+
+        function calcX1(x, x, z){
+            let delta = (b**2)-(4 * a * c)
+            delta = Math.sqrt(delta)
+            let x1 = (b + delta)/ (2*a)
+
+            return x1
+        }
+        function calcX2(x, x, z){
+            let delta = (b**2)-(4 * a * c)
+            delta = Math.sqrt(delta)
+            let x2 = (b - delta)/ (2*a)
+
+            return x2
+        }
+
+
+        window.confirm(`O valor da primeira raíz é: ${calcX1(a, b, c)} e o da segunda é: ${calcX2(a, b, c)}`)
+        
+    </script>
+</body>
+</html>

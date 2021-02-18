@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 03 - Logica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="window.location.href = 'index.html'">Voltar para o menu principal</button>
+    <script>
+        window.alert("Receba a base e a altura de um triângulo. Calcule e mostre a sua área")
+
+        let base = Number( window.prompt("Digite o valor da base:"))
+        let alt = Number(window.prompt("Digite o valor da altura:"))
+    
+      const areaT =  function (){
+            let areaT = (alt * base)/2
+            return areaT
+        }
+        areaT(base, alt)
+        window.alert(`O valor da area é ${areaT(base, alt)}`)
+
+        //console.log(typeof(window.prompt))
+
+        // Conversão de String para Number = Linha 12/13
+
+        /*let teste = window.confirm(`Você quer saber quantas letras tem a palavra que está na sua mente?`)
+        if(teste==true){
+            let palavra = window.prompt("Digite a palavra que está na sua mente:")
+            document.writeln(`A palavra tem ${palavra.length} letras <br/>` )
+            document.writeln(` Falando alto agora: ${palavra.toUpperCase()} <br/> `)
+            document.writeln(`Falando baixinho... ${palavra.toLowerCase()} <br/>`)
+        }
+        else{
+            document.write("Nois")
+        }*/
+        // para colocar mais numeros depois da virgula .toFixed e o toFixed.replace ('.', ',') para trocar pontos por virgula
+    </script>
+</body>
+</html>

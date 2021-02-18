@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 01 - Logica</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <button onclick="window.location.href = 'index.html'">Voltar para o menu principal</button>
+<script>
+window.alert('Coletar o valor do lado de um quadrado, calcular sua área e apresentar o resultado')
+
+let x = window.prompt('Digite o valor do lado A:')
+
+let y = window.prompt('Digite o valor do lado B:')
+
+calcArea = function(a, b){
+    area = a*b
+    return area
+}
+
+window.confirm(`O valor da aréa é: ${calcArea(x, y)}m²`)
+
+</script>    
+</body>
+</html>
