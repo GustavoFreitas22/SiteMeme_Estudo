@@ -34,3 +34,22 @@ footer{
     text-align: center;
     font-style: italic;
 }
+
+#corona{
+    padding: 25px;
+    font-size: small;
+    text-align: center;
+    font-style: italic;
+}
+
+#testeCovid{
+    background-color: bisque;
+    scroll-padding: 100px;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+    text-align: center;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+}
